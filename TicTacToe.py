@@ -95,8 +95,11 @@ while done != True:
                     print "ERROR, try again"
                     print " "
                 else:
-                     X = 2
-                     Y -=1
+                    print " "
+                    print "ERROR, try again"
+                    print " "
+                    X = 2
+                    Y -=1
 
                 if map[Y][X] == " ":
                     map[Y][X] = turn
